@@ -67,7 +67,7 @@ public class Umpire
 		System.out.println("Player3 guess the number....");
 		Player p3=new Player();
 		pl3=p3.play();
-		while(pl2>maxguess || pl2<minguess)
+		while(pl3>maxguess || pl3<minguess)
 		{
 			System.out.println("Player3 kindly guess the number from "+minguess+" to "+maxguess);
 			pl3=p3.play();
